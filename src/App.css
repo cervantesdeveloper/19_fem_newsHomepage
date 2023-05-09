@@ -10,6 +10,12 @@
   cursor: pointer;
 }
 
+.container{
+  max-width: 69.375rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .cta{
   color: var(--whitish);
   background-color: var(--orange-red);
@@ -28,6 +34,16 @@ h1{
   letter-spacing: 1px;
 }
 
+h2{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--orange-soft);
+}
+
+h3{
+  font-size: 1.125rem;
+  line-height: 2;
+}
 
 
 
@@ -36,15 +52,19 @@ h1{
 /* ***** header start **** */
 
 .header{
-  border: .5px dashed red;
+  position: sticky;
+  top: 0;
+  height: 4.375rem;
+  margin-bottom: 1.1875rem;
+  padding-top: 1rem;
+  background-color: var(--whitish);
+}
+
+.header .container{
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 3.375rem;
-  max-width: 69.375rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.1875rem;
 }
 
 .logo{
@@ -124,8 +144,9 @@ h1{
 
 @media (min-width: 48rem) {
   .header{
-    height: 5rem;
+    height: 9.375rem;
     margin-bottom: 2.1875rem;
+    padding-top: 4.375rem;
   }
 
   .logo{
@@ -155,4 +176,31 @@ h1{
   margin-right: auto;
 }
 
+.headline{
+  margin-bottom: 6rem;
+}
+
 /* ***** headline end **** */
+
+/* ***** aside start **** */
+.aside{
+  padding: 1.375rem;
+  background-color: var(--blue-dark);
+  color: var(--whitish);
+}
+
+.news{
+  padding: 1.6875rem 0;
+  border-bottom: thin solid var(--blue-grayish);
+}
+
+.news:last-child{
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.news p{
+  font-size: .9375rem;
+  line-height: 1.8;
+}
+/* ***** aside end **** */

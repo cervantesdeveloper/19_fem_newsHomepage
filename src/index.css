@@ -14,7 +14,7 @@
 
 html{
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 0 1rem;
   font-family: var(--font-main);
   background-color: var(--whitish);
 }
@@ -25,10 +25,4 @@ html{
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-}
-
-@media (min-width: 48rem) {
-    html{
-      padding-top: 4.375rem;
-    }
 }

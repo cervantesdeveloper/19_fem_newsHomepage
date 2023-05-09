@@ -5,8 +5,10 @@ import NavMain from "./NavMain";
 function Header(){
     return(
         <header className="header">
-            <Logo myClass="logoSvg"/>
-            {screen.width < 768 ? <Burger /> : <NavMain />} 
+            <div className="container">
+                <Logo myClass="logoSvg"/>
+                {screen.width < 768 ? <Burger /> : <NavMain />} 
+            </div>
         </header>
     )
 }
