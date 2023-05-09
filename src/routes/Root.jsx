@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Button from "../components/Button";
 import HeadingMain from "../components/HeadingMain";
 import Aside from "../components/Aside";
+import RelatedNews from "../components/RelatedNews";
 
 function Root(){
     return(
@@ -15,6 +16,7 @@ function Root(){
                 <Button type="cta" legend="READ MORE"/>
             </main>
             <Aside />
+            <RelatedNews />
         </>
         
     )
