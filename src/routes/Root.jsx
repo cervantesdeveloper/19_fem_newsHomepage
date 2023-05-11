@@ -4,9 +4,10 @@ import HeadingMain from "../components/HeadingMain";
 import Aside from "../components/Aside";
 import RelatedNews from "../components/RelatedNews";
 
+
 function Root(){
     return(
-        <>
+        <div className="grid">
             <main className="headline">
                 <Banner />
                 <HeadingMain text="The Bright Future of Web 3.0?" />
@@ -17,7 +18,8 @@ function Root(){
             </main>
             <Aside />
             <RelatedNews />
-        </>
+            
+        </div>
         
     )
 }
