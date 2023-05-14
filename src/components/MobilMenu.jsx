@@ -1,18 +1,22 @@
-import CloseButton from "./CloseButton";
+import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
-function MobileMenu(){
+function MobileMenu({className}){
     return (
-        <>
+        <div id="mobileMenu" className={className}>
             <nav className="nav-mobile">
-            <CloseButton />
-                <a href="./">Home</a>
-                <a href="/new">New</a>
-                <a href="/popular">Popular</a>
-                <a href="/trending">Trending</a>
-                <a href="/categories">Categories</a>
+                <NavLink to="./">Home</NavLink>
+                <NavLink to="/new">News</NavLink>
+                <NavLink to="/popular">Popular</NavLink>
+                <NavLink to="/trending">Trending</NavLink>
+                <NavLink to="/categories">Categories</NavLink>
             </nav>
-        </>
+        </div>
     )
 }
 
 export default MobileMenu;
+
+MobileMenu.propTypes = {
+    className: PropTypes.string
+}
