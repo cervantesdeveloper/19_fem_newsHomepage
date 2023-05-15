@@ -8,6 +8,7 @@ import{
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
+import FakeLink from './routes/FakeLink';
 
 
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
       path: "/",
       element: <Home />
+    },
+    {
+      path: "/*",
+      element: <FakeLink />
     }
   ]
 }

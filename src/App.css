@@ -1,5 +1,9 @@
 /* ***** global start **** */
 
+.nav-main .active{
+  color: var(--orange-red);
+}
+
 .btn{
   font-size: .75rem;
   font-weight: 700;
@@ -374,3 +378,11 @@ h3{
 }
 
 /* ***** footer end **** */
+
+/* ***** fake content start **** */
+.content{
+  min-height: 50vh;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+/* ***** fake content end **** */
