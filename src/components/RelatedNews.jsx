@@ -4,21 +4,21 @@ function RelatedNews(){
     return(
         <div className="related container">
             <Related 
-                image="https://19-fem-news-home.netlify.app/src/assets/image-retro-pcs.jpg"
+                image="assets/image-retro-pcs.jpg"
                 number="01"
                 heading="Reviving Retro PCs"
                 caption="What happens when old PCs are given modern upgrades?"
             />
 
             <Related 
-                image="https://19-fem-news-home.netlify.app/src/assets/image-top-laptops.jpg"
+                image="assets/image-top-laptops.jpg"
                 number="02"
                 heading="Top 10 Laptops of 2022"
                 caption="Our best picks for various needs and budgets."
             />
 
             <Related 
-                image="https://19-fem-news-home.netlify.app/src/assets/image-gaming-growth.jpg"
+                image="assets/image-gaming-growth.jpg"
                 number="03"
                 heading="The Growth of Gaming"
                 caption="How the pandemic has sparked fresh opportunities."
