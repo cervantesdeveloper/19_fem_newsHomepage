@@ -3,7 +3,7 @@ function Banner(){
         <div className="banner">
             <picture>
                 <source 
-                    srcSet="src/assets/image-web-3-desktop.jpg"
+                    srcSet="assets/image-web-3-desktop.jpg"
                     media="(min-width: 768px)"
                 />
                 <img src="assets/image-web-3-mobile.jpg" alt="" />
