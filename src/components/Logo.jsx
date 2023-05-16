@@ -1,7 +1,8 @@
+import logo from "../assets/logo.svg"
 
 function Logo(){
     return(
-        <img className="logo" src="assets/logo.svg" alt="W" />
+        <img className="logo" src={logo} alt="W" />
     )
 }
 
